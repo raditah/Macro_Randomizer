@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <h1> Macro Generator</h1>           
+    </head>
+    <body>
+        <div class="options">
+            <br><br>
+            <h3>Macro</h3>
+            <div class="macro-select" style="width:200px;">
+              <select id= "Macro">
+                <option value="0">Select macro:</option>
+                <option value="apolpass">Apologies pass</option>
+                <option value="apoldriver">Apologies driver</option>
+                <option value="availibility">Driver Availibility</option>
+                <option value="ebp">EB not Emergency pass</option>
+                <option value="ebd">EB not Emergency driver</option> 
+                <option value="low">Low fare</option>      
+                <option value="prechargeswallet">Precharges wallet compensation</option> 
+                <option value="refundunhappened">Refund unhappened ride</option>                  
+                <option value="void">Void ride</option>
+              </select>
+            </div>
+            <h3>Country</h3>
+            <div class="country-select" style="width:200px;">
+              <select id= "Country">
+                <option value="6">Select country:</option>
+                <option value="Ar">Argentina</option>
+                <option value="Co">Colombia</option>
+                <option value="Cl">Chile</option>
+                <option value="Mx">Mexico</option>
+                <option value="Pe">Peru</option>
+              </select>
+            </div>               
+            <button id="boton1">Create</button>            
+          </div> 
+        <div class="container2">
+        <h4>HQ Code</h4>            
+            <p id="code"></p>
+    <script src="script.js"></script>
+          </div>
+     <div class="container3">
+        <h4>Tag Sugerido</h4>            
+            <p id="tag"></p>
+    <script src="background/script.js"></script>
+    </div>  
+     <div class="container">
+        <h4>Macro</h4>            
+         <p id="sentence"></p>
+     </div>        
+    <script src="background/script.js"></script>
+      
+        </body>
+</html>

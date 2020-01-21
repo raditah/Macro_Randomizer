@@ -1,0 +1,25 @@
+{
+    "manifest_version":2,
+    "name": "random macro",
+    "version":"1",
+    "icons":
+            { "128": "png/b.png" },
+    "description": "Random macro generator",
+    "permissions": [
+  "storage"],
+    "content_scripts": [
+        {
+          "matches": [
+           "https://*/*"
+          ],
+          "js": ["script.js"]
+        }
+      ],
+      "browser_action":
+      {"default_popup": "index.html"}
+    }
+
+
+
+
+
